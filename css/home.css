@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(183, 228, 183);
+}
+
+#wrapper{ 
+    width: 800px;
+    margin: auto; 
+    background-color: cornsilk;
+}
+#header{ 
+    height: 449px;
+    width: 800px;
+    background-image:url("../img/panda2.jpg");
+    background-size: contain;
+}
+
+#header h1{ 
+    font-weight: bold;
+    color: rgba(90, 95, 95, 0.945);
+    width: 500px;
+    margin: 100px 0 0 30px;
+    padding: 30px;
+    font-size: 60px;
+}
+#nav ul{
+    display: flex;
+}
+#nav ul li{
+    width: 200px;
+}
+#nav ul li a{
+    background-color:rgba(222, 184, 135, 0.836);
+    display: block;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    line-height: 100px;
+    color: rgba(90, 95, 95, 0.945);
+    border-bottom: solid 6px rgba(222, 184, 135, 0.836);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+}
+#nav ul li a:hover{
+    background-color: limegreen;
+}
+#main h2{
+    font-size: 35px;
+    color: rgba(90, 95, 95, 0.945);
+    margin: 20px 0 0 20px;
+}
+#main h3{
+    font-size: 25px;
+    color: rgba(90, 95, 95, 0.945);
+    margin: 20px 0 0 40px;
+}
+#main img{
+    border-radius: 30%;
+    margin: 20px 0 0 50px;
+    width: 300px;
+    height: 250px;
+}
+
+#main ul{
+    margin: 40px 0 0 50px;
+    color: rgba(90, 95, 95, 0.945);
+}
+
+#main p{
+    margin: 0px 0 0 20px;
+    color: rgba(90, 95, 95, 0.945);
+}
+#main .a{
+    margin: 125px 0 0 20px;
+    color: rgba(90, 95, 95, 0.945);
+}
+#footer{
+    margin: 20px 0 0 0;
+    background-color: lightgray;
+    text-align: right;
+    padding: 10px;
+}
+
+#footer address{
+    font-style: italic;
+    font-size: 0.75em;
+}

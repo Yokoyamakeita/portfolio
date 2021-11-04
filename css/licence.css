@@ -1,0 +1,17 @@
+#main img{
+    border-radius: 30%;
+    margin: 20px 0 0 50px;
+    width: 250px;
+    height: 200px;
+}
+
+#main ul{
+    margin: 80px 0 0 50px;
+    color: rgba(90, 95, 95, 0.945);
+}
+
+#main p{
+    margin: 100px 0 0 20px;
+    color: rgba(90, 95, 95, 0.945);
+}
+
